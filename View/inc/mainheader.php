@@ -1,13 +1,27 @@
-<header class="mainheader">
-    <nav>
-        <ul>
-            <li><a href="#">Wine</a></li>
-            <li><a href="#">Offers</a></li>
-            <li><a href="#">Spirits</a></li>
-            <li><a href="#">Champagne</a></li>
-            <li><a href="#">testxd</a></li>
-            <li><a href="#">test123123123</a></li>
-        </ul>
-    </nav>
+<!doctype html>
+<html>
+<link rel="stylesheet" href="/wineproject/css/style1.css">
 
-</header>
+<head>
+    <title>homepage</title>
+</head>
+
+<body>
+    <ul class = "navUser">
+        <li><a href="#">Account</a></li>
+        <li><a href="#">Shopping Basket</a></li>
+        <li><a href="#">Shopping List</a></li>
+    </ul>
+
+    <img class = "logo" img src ="/wineproject/images/NewLogo.png"/>
+
+    <ul class ="navBrowse">
+        <li><a href ="wines.php">Wines</a></li>
+        <li><a href ="#">Beers</a></li>
+        <li><a href ="#">Cocktails</a></li>
+        <li><a href ="#">Gift Baskets</a></li>
+    </ul>
+
+</body>
+
+</html>
