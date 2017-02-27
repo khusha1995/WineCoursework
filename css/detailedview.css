@@ -1,0 +1,14 @@
+
+#container {
+	margin:0 auto;
+	position:relative;
+	z-index:0;
+}
+#alcoholslides {
+	position:relative;
+}
+
+.your-review input[type="text"], .your-review textarea{
+	width:93%;
+}
+}

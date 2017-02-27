@@ -4,16 +4,17 @@
     <head>
 <title>homepage</title>
 </head>
- <link rel="stylesheet" href="/wineproject/css/style1.css">
+ <link href="/wineproject/css/style.css" rel="stylesheet" type="text/css" media="all"/>
     <!--MAINHEADER-->
-<?php include $_SERVER["DOCUMENT_ROOT"]. '/wineproject/view/inc/mainheader.php'; ?>
+
 
 <body>
+<?php include $_SERVER["DOCUMENT_ROOT"]. '/wineproject/view/inc/mainheader.php'; ?>
+
+<?php include $_SERVER["DOCUMENT_ROOT"]. '/wineproject/view/inc/mainbody.php'; ?>
 
 
-<!--BODY-->
-  <!--<form action="search.php" method="post"><input type ="text" class ="search"
-        placeholder ="search.."></form> -->
+
 
 
 
